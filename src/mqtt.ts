@@ -9,6 +9,7 @@ var settings: MoscaSettings = {
         bundle: true,
         static: './'
     },
+    host: '0.0.0.0'
 }
 
 if (process.env.USE_SSL == 'true') {
@@ -31,3 +32,5 @@ if (process.env.USE_SSL == 'true') {
 const server = new mosca.Server(settings)
 
 export default server
+
+// multivid marco tempest

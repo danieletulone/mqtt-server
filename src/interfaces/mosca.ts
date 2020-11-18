@@ -22,4 +22,5 @@ export interface MoscaSettings {
     https?: MoscaHttpsSettings,
     secure?: MoscaSecureSettings,
     allowNonSecure?: boolean,
+    host: string
 }
